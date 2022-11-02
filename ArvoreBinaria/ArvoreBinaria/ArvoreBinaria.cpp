@@ -178,7 +178,7 @@ void exibirElementosArvore(NO* no)
 void buscarElementoArvore(NO* no, int valor)
 {
     if(no){
-        if(num == no->valor)
+        if(valor == no->valor)
             return no;
         else if(valor < raiz->valor)
             return buscarElementoArvore(no->esquerda, valor);
